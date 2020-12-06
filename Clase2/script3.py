@@ -44,7 +44,7 @@ force=CustomNonbondedForce("""energy;
 
 force.addPerParticleParameter('sigma')
 force.addPerParticleParameter('epsilon')
-esilon=-100
+epsilon=-10
 sigma=10
 for i in range(100):
     force.addParticle([epsilon,sigma])
